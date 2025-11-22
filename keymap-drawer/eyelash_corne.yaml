@@ -178,9 +178,9 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - $$mdi:pan-left$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
-  - $$mdi:pan-right$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
