@@ -44,9 +44,9 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - LGUI
-  - NAV
-  - {t: '$$mdi:keyboard-space$$', h: QWERTY}
-  - {t: '$$mdi:keyboard-return$$', h: QWERTY}
+  - AEROSPACE
+  - {t: '$$mdi:keyboard-space$$', h: NAV}
+  - {t: '$$mdi:keyboard-return$$', h: NAV}
   - NUMBER_SYMBOL
   - $$mdi:apple-keyboard-option$$
   AEROSPACE:
@@ -93,7 +93,7 @@ layers:
   - '&td0'
   - '&td0'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
   - $$mdi:backspace-reverse-outline$$
@@ -191,9 +191,9 @@ layers:
   - SCROLLLOCK
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
