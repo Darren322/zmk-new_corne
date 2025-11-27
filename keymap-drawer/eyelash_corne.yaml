@@ -109,7 +109,7 @@ layers:
   - _
   - '&'
   - '*'
-  - {t: '-', s: _}
+  - ^
   - +
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -124,9 +124,9 @@ layers:
   - {t: '=', s: +}
   - $
   - '%'
-  - ^
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: \, s: '|'}
-  - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&td0'
   - '1'
@@ -140,7 +140,7 @@ layers:
   - '@'
   - '#'
   - '|'
-  - '~'
+  - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
