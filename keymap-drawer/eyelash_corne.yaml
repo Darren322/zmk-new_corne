@@ -45,7 +45,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - LGUI
   - AEROSPACE
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: NAV}
   - NUMBER_SYMBOL
   - $$mdi:apple-keyboard-option$$
