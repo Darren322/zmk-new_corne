@@ -171,9 +171,9 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:progress-download$$
-  - $$mdi:mouse-left-click-outline$$
+  - PgUp
   - $$mdi:pan-up$$
-  - $$mdi:mouse-right-click-outline$$
+  - PgDn
   - PRINTSCREEN
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
