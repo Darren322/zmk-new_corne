@@ -89,9 +89,9 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - HOME
   - END
-  - '&td0'
-  - '&td0'
-  - '&td0'
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
